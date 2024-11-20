@@ -1,0 +1,431 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container1 {
+    position: relative;
+}
+
+.container1 img {
+    height: 450px;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    object-fit: cover;
+}
+
+.gradient {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 450px;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+.app {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    color: white;
+    z-index: 2;
+}
+
+.container1 ul {
+    display: flex;
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    z-index: 2;
+}
+
+.container1 ul li {
+    color: white;
+    list-style-type: none;
+    margin-right: 15px;
+}
+
+.container1 h1.zomato{
+   
+    position: absolute;
+    top: 30%;
+    left: 46%;
+    z-index: 2;
+    color: white;
+    font-weight: 900;
+    font-size: xx-large;
+}
+.container1 h2{
+    position: absolute;
+    top: 40%;
+    left: 37%;
+    color: white;
+    z-index: 2;
+}
+.search1 img{
+    width: 20px;
+    height: 20px;
+}
+.search1{
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 45px;
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 40%;
+    left: 30%;
+    z-index: 2;
+}
+.search1 input{
+    width: 100%;
+    border: none;
+    border-color: #fff;
+}
+.search2 img{
+    width: 20px;
+    height: 20px;
+}
+.search2{
+    display: flex;
+    align-items: center;
+    width: 600px;
+    height: 45px;
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 40%;
+    left: 40%;
+    z-index: 2;
+}
+.search2 input{
+    width: 100%;
+    border: none;
+    border-color: #fff;
+}
+.container2{
+    margin: 4% 12%;
+    display: flex;
+}
+.online img{
+    width: 700px;
+    height: 250px;
+    object-fit: cover;
+}
+.online{
+    height: 320px;
+    width: 600px;
+    border-radius: 20px;
+    border: 1px solid rgb(196, 196, 191);
+    overflow: hidden;
+    margin-right: 20px;
+    
+}
+.order{
+    font-size: x-large;
+    margin-left: 10px;
+}
+.view{
+    margin-left: 10px;
+}
+.container3{
+    margin: 6% 12%;
+}
+.container3 h1{
+    margin-bottom: 5px;
+}
+.container3 ul{
+    display: flex;
+    margin-bottom: 10px;
+}
+.container3 ul li{
+    margin-right: 390px;
+    list-style-type: none;
+    
+}
+.container3 ul a{
+    color: red;
+    text-decoration: none;
+}
+.status{
+    display: flex; 
+}
+.image .gradient1{
+    background-color: black;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index:1;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.image{
+    position: relative;
+    width: 300px;
+    height: 350px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.image img{
+    height: 350px;
+    object-fit: cover;
+   
+}
+.places{
+    position: absolute;
+    bottom: 10%;
+    left: 2%;
+    z-index: 2;
+    font-size: larger;
+    color: #fff;
+}
+.available{
+    position: absolute;
+    left: 2%;
+    bottom: 5%;
+    color: #fff;
+}
+.head{
+    margin-left: 12%;
+
+}
+.container4{
+    margin: 2% 12%;
+}
+.places1{
+    border: 2px solid rgb(228, 221, 221);
+    width: 370px;
+    height: 80px;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+.places1 .city, .places1 .number {
+    text-decoration: none !important;
+    color:  black
+}
+.new{
+    text-decoration: none !important;
+}
+.city{
+    margin-left: 10px;
+    margin-top: 15px;
+    font-size: large;
+}
+.number{
+    margin-left: 10px;
+    margin-top: 7px;
+}
+.row{
+    display: flex;
+    margin-bottom: 20px;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+.places1 .seemore{
+    color: black;
+    margin-left: 40%;
+    margin-top: 10%;
+}
+.container5 {
+    margin: 6% 12%;
+    display: flex;
+}
+.login h1{
+    margin-top: 90px;
+    margin-bottom: 30px
+}
+.login p{
+    margin-bottom: 30px;
+}
+.radio {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.radio__input, .radio__input1 {
+    display: none;
+}
+
+.radio__radio, .radio__radio1 {
+    width: 1em;
+    height: 1em;
+    border: 2px solid rgb(241, 200, 200);
+    border-radius: 50%;
+    margin-right: 10px;
+    padding: 2px;
+    position: relative;
+}
+
+.radio__radio::after, .radio__radio1::after {
+    content: "";
+    width: 90%;
+    height: 90%;
+    display: block;
+    background: rgb(228, 108, 108);
+    border-radius: 50%;
+    transform: scale(0);
+    transition: transform 0.2s ease-in-out;
+}
+
+.radio__input:checked + .radio__radio::after, 
+.radio__input1:checked + .radio__radio1::after {
+    transform: scale(1);
+}
+.sharelink{
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+}
+.search3 input{
+    width: 300px;
+    height: 36px;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: large;
+}
+
+.sharelink button{
+    height: 40px;
+    width: 120px;
+    background-color: rgb(195, 97, 97);
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+}
+.download{
+    margin-top: 25px;
+    font-size: small;
+    color: #5a5151;
+}
+.stores{
+    display: flex;
+}
+.play,.apple{
+    width: 150px;
+    height: 40px;
+}
+.play{
+    margin-right: 5px;
+}
+.container6{
+    margin: 3% 12%;
+}
+.popular{
+    margin-top: 20px;
+    border: 1px solid rgb(226, 213, 213);
+    height: 65px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.popular a{
+    text-decoration: none;
+}
+.cuisines{
+    margin-left: 25px;
+    margin-top: 20px;
+    color: rgb(56, 55, 55);
+    font-size: large;
+}
+.container7{
+    background-color: rgb(244, 251, 248);
+    height: 700px;
+}
+.class{
+    margin: 3% 12%;
+    display: flex;
+    justify-content: space-between;
+}
+.imglogo img{
+    width: 100px;
+    margin-top: 40px;
+}
+.imglogo1 img{
+    width: 25px;
+    margin-left: 5px;
+    
+}
+.imglogo1 a{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    margin-left: 5px;
+}
+.india,.globe{
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(81, 78, 78);
+    height: 32px;
+    margin-top: 40px;
+    border-radius: 5px;
+    width: 110px;
+}
+.india{
+    margin-right: 10px;
+}
+.imglogo1 p{
+    margin-left: 5px;
+    color: black;
+}
+.class1{
+    margin: 4% 12%;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    margin-right: 150px;
+}
+.aboutsection{
+    display: flex;
+    flex-direction: row;
+}
+.about h4{
+    font-size: small;
+    margin-bottom: 20px;
+}
+.about a{
+    text-decoration: none;
+    color: rgb(69, 69, 69);
+    margin-bottom: 5px;
+    font-size: small;
+}
+.in{
+    width: 38px;
+    border-radius: 50%;
+    overflow: hidden;
+
+}
+.fb{
+    width: 36px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.insta,.x,.yt{
+    width: 27px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 4px;
+}
+.social{
+    display: flex;
+    align-items: center;
+}
+.class2{
+    margin: 1% 12%;
+}
+.class2 p{
+    font-size: small;
+    margin-top: 20px;
+}
