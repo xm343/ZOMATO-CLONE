@@ -49,15 +49,14 @@
     margin-right: 15px;
 }
 
-.container1 h1.zomato{
+.container1 .zomato{
    
     position: absolute;
     top: 30%;
     left: 46%;
     z-index: 2;
-    color: white;
-    font-weight: 900;
-    font-size: xx-large;
+    width: 200px;
+    height: 40px;
 }
 .container1 h2{
     position: absolute;
